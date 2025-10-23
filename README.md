@@ -10,9 +10,9 @@
 
 - Baixe, instale e execute o MongoDB localmente a partir de: [MongoDB](https://www.mongodb.com/try/download/community).
 
-### 2. **Cloudinary**
+### 3. **Cloudinary**
 
-- Crie uma conta grauita em: [Cloudinary](<https://cloudinary.com/>).
+- Crie uma conta gratuita em: [Cloudinary](https://cloudinary.com/).
 
 - Faça o login na conta criada e entre no Dashboard.
 
@@ -35,7 +35,7 @@
     - Abra o terminal (ou prompt de comando) e execute o seguinte comando:
 
     ```bash
-    git clone <https://github.com/PedroHenriqueFonsec/plataforma-de-imoveis-para-universitarios.git>
+    git clone https://github.com/PedroHenriqueFonsec/plataforma-de-imoveis-para-universitarios.git
     ```
 
 2. **Instale as Dependências**
@@ -56,10 +56,12 @@
     ```
 
   - Crie um arquivo `.env` dentro da pasta backend com as seguintes variáveis:
-
+ 
+    ```bash
     CLOUDINARY_CLOUD_NAME=<Cloud_Name_Do_Seu_Cloudinary>
     CLOUDINARY_API_KEY=<API_Key_Do_Seu_Cloudinary>
     CLOUDINARY_API_SECRET=<API_Secret_Do_Seu_Cloudinary>
+    ```
 
   - Ainda dentro da pasta do backend no terminal (ou prompt de comando), inicie o backend com o seguinte comando:
 
@@ -85,4 +87,3 @@
 3. **Acesse a plataforma**
 
 - Assim que o frontend for iniciado, acesse o endereço exibido no terminal (geralmente <http://localhost:5173>, ou conforme indicado pelo Vite).
-- 
